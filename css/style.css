@@ -83,15 +83,25 @@ input[type="email"]::-webkit-input-placeholder {
     }
 
     #clockdiv div>img {
-        width: 8rem;
+        width: 6.5rem;
     }
 
     #clockdiv div>span {
-        font-size: 2.8rem;
+        font-size: 2.2rem;
         position: relative;
-        left: 3rem;
+        left: 2rem;
         bottom: 1rem;
         font-family: 'Sue Ellen Francisco', cursive;
+    }
+
+    .smalltext {
+        font-size: 2.2rem;
+        margin-top: 1rem;
+        position: relative;
+        text-align: right;
+        transform: rotate(-30deg) translate(1.5rem);
+        font-family: 'Sue Ellen Francisco', cursive;
+        letter-spacing: 0.4rem;
     }
 
 }
